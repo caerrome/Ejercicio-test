@@ -1,5 +1,6 @@
 package com.mycompany.app;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -9,12 +10,21 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
+    private App Ejercicio;
+
+
+    public void setUp()
+    {
+        this.Ejercicio = new App();
+    }
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
+    }
+
+    @Test
+    public void main() throws  Exception{
+        String[] Ubicacion = {"C:\\Users\\caerr_000\\Documents\\Project\\Ejercicio-Datio\\Sacramentorealestatetransactions.csv"};
+        this.Ejercicio.main(Ubicacion);
     }
 }

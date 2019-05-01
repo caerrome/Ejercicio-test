@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Ejercicio-Datio:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Ejercicio_Datio_jar</output-path>
+    <root id="archive" name="Ejercicio-Datio.jar">
+      <element id="module-output" name="Ejercicio-Datio" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
